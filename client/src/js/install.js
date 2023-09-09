@@ -12,6 +12,7 @@ butInstall.addEventListener('click', async () => {
 if(window.defferedPrompt){
 return
 }
+window.defferedPrompt.prompt()
 
 });
 
