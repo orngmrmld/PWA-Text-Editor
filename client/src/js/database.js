@@ -32,7 +32,10 @@ const store = tx.objectStore('jate');
 const request = store.get(1);
 const result = await request;
 console.log('result.value', result.value);
-return result.value;
+// if(!result){
+//   return
+// }
+return result?.value;
 };
 
 
