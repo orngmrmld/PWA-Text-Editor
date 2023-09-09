@@ -12,8 +12,8 @@ require('./routes/htmlRoutes')(app);
 app.listen(PORT, () => console.log(`Now listening on port: ${PORT}`));
 
 
-// 1. work on webpack config
-// 2. work on service worker
+// 1. work on webpack config x
+// 2. work on service worker x
 // 3. set up indexedDB
 // 4. make app installable
 
